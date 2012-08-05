@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680FB3C115CF1B8500DE453D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680FB3C015CF1B8500DE453D /* UIKit.framework */; };
+		680FB3C315CF1B8500DE453D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680FB3C215CF1B8500DE453D /* Foundation.framework */; };
+		680FB3C515CF1B8500DE453D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680FB3C415CF1B8500DE453D /* CoreGraphics.framework */; };
+		680FB3C715CF1B8500DE453D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680FB3C615CF1B8500DE453D /* CoreData.framework */; };
+		680FB3CD15CF1B8500DE453D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 680FB3CB15CF1B8500DE453D /* InfoPlist.strings */; };
+		680FB3CF15CF1B8500DE453D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 680FB3CE15CF1B8500DE453D /* main.m */; };
+		680FB3D315CF1B8500DE453D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 680FB3D215CF1B8500DE453D /* AppDelegate.m */; };
+		680FB3D615CF1B8500DE453D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680FB3D415CF1B8500DE453D /* MainStoryboard_iPhone.storyboard */; };
+		680FB3D915CF1B8500DE453D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680FB3D715CF1B8500DE453D /* MainStoryboard_iPad.storyboard */; };
+		680FB3DC15CF1B8500DE453D /* Home_Owner_Modeler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 680FB3DA15CF1B8500DE453D /* Home_Owner_Modeler.xcdatamodeld */; };
+		680FB3DF15CF1B8500DE453D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680FB3DE15CF1B8500DE453D /* MasterViewController.m */; };
+		680FB3E215CF1B8500DE453D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680FB3E115CF1B8500DE453D /* DetailViewController.m */; };
+		680FB3EA15CF1B8500DE453D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680FB3E915CF1B8500DE453D /* SenTestingKit.framework */; };
+		680FB3EB15CF1B8500DE453D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680FB3C015CF1B8500DE453D /* UIKit.framework */; };
+		680FB3EC15CF1B8500DE453D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680FB3C215CF1B8500DE453D /* Foundation.framework */; };
+		680FB3ED15CF1B8500DE453D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680FB3C615CF1B8500DE453D /* CoreData.framework */; };
+		680FB3F515CF1B8500DE453D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 680FB3F315CF1B8500DE453D /* InfoPlist.strings */; };
+		680FB3F815CF1B8500DE453D /* Home_Owner_ModelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 680FB3F715CF1B8500DE453D /* Home_Owner_ModelerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		680FB3EE15CF1B8500DE453D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680FB3B315CF1B8500DE453D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680FB3BB15CF1B8500DE453D;
+			remoteInfo = "Home Owner Modeler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		680FB3BC15CF1B8500DE453D /* Home Owner Modeler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Owner Modeler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		680FB3C015CF1B8500DE453D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		680FB3C215CF1B8500DE453D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		680FB3C415CF1B8500DE453D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		680FB3C615CF1B8500DE453D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		680FB3CA15CF1B8500DE453D /* Home Owner Modeler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Home Owner Modeler-Info.plist"; sourceTree = "<group>"; };
+		680FB3CC15CF1B8500DE453D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		680FB3CE15CF1B8500DE453D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		680FB3D015CF1B8500DE453D /* Home Owner Modeler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Home Owner Modeler-Prefix.pch"; sourceTree = "<group>"; };
+		680FB3D115CF1B8500DE453D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		680FB3D215CF1B8500DE453D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		680FB3D515CF1B8500DE453D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		680FB3D815CF1B8500DE453D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		680FB3DB15CF1B8500DE453D /* Home_Owner_Modeler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Home_Owner_Modeler.xcdatamodel; sourceTree = "<group>"; };
+		680FB3DD15CF1B8500DE453D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		680FB3DE15CF1B8500DE453D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		680FB3E015CF1B8500DE453D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		680FB3E115CF1B8500DE453D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		680FB3E815CF1B8500DE453D /* Home Owner ModelerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home Owner ModelerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		680FB3E915CF1B8500DE453D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		680FB3F215CF1B8500DE453D /* Home Owner ModelerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Home Owner ModelerTests-Info.plist"; sourceTree = "<group>"; };
+		680FB3F415CF1B8500DE453D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		680FB3F615CF1B8500DE453D /* Home_Owner_ModelerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home_Owner_ModelerTests.h; sourceTree = "<group>"; };
+		680FB3F715CF1B8500DE453D /* Home_Owner_ModelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home_Owner_ModelerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		680FB3B915CF1B8500DE453D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FB3C115CF1B8500DE453D /* UIKit.framework in Frameworks */,
+				680FB3C315CF1B8500DE453D /* Foundation.framework in Frameworks */,
+				680FB3C515CF1B8500DE453D /* CoreGraphics.framework in Frameworks */,
+				680FB3C715CF1B8500DE453D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FB3E415CF1B8500DE453D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FB3EA15CF1B8500DE453D /* SenTestingKit.framework in Frameworks */,
+				680FB3EB15CF1B8500DE453D /* UIKit.framework in Frameworks */,
+				680FB3EC15CF1B8500DE453D /* Foundation.framework in Frameworks */,
+				680FB3ED15CF1B8500DE453D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		680FB3B115CF1B8500DE453D = {
+			isa = PBXGroup;
+			children = (
+				680FB3C815CF1B8500DE453D /* Home Owner Modeler */,
+				680FB3F015CF1B8500DE453D /* Home Owner ModelerTests */,
+				680FB3BF15CF1B8500DE453D /* Frameworks */,
+				680FB3BD15CF1B8500DE453D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		680FB3BD15CF1B8500DE453D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				680FB3BC15CF1B8500DE453D /* Home Owner Modeler.app */,
+				680FB3E815CF1B8500DE453D /* Home Owner ModelerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		680FB3BF15CF1B8500DE453D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				680FB3C015CF1B8500DE453D /* UIKit.framework */,
+				680FB3C215CF1B8500DE453D /* Foundation.framework */,
+				680FB3C415CF1B8500DE453D /* CoreGraphics.framework */,
+				680FB3C615CF1B8500DE453D /* CoreData.framework */,
+				680FB3E915CF1B8500DE453D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		680FB3C815CF1B8500DE453D /* Home Owner Modeler */ = {
+			isa = PBXGroup;
+			children = (
+				680FB3D115CF1B8500DE453D /* AppDelegate.h */,
+				680FB3D215CF1B8500DE453D /* AppDelegate.m */,
+				680FB3D415CF1B8500DE453D /* MainStoryboard_iPhone.storyboard */,
+				680FB3D715CF1B8500DE453D /* MainStoryboard_iPad.storyboard */,
+				680FB3DD15CF1B8500DE453D /* MasterViewController.h */,
+				680FB3DE15CF1B8500DE453D /* MasterViewController.m */,
+				680FB3E015CF1B8500DE453D /* DetailViewController.h */,
+				680FB3E115CF1B8500DE453D /* DetailViewController.m */,
+				680FB3DA15CF1B8500DE453D /* Home_Owner_Modeler.xcdatamodeld */,
+				680FB3C915CF1B8500DE453D /* Supporting Files */,
+			);
+			path = "Home Owner Modeler";
+			sourceTree = "<group>";
+		};
+		680FB3C915CF1B8500DE453D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				680FB3CA15CF1B8500DE453D /* Home Owner Modeler-Info.plist */,
+				680FB3CB15CF1B8500DE453D /* InfoPlist.strings */,
+				680FB3CE15CF1B8500DE453D /* main.m */,
+				680FB3D015CF1B8500DE453D /* Home Owner Modeler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		680FB3F015CF1B8500DE453D /* Home Owner ModelerTests */ = {
+			isa = PBXGroup;
+			children = (
+				680FB3F615CF1B8500DE453D /* Home_Owner_ModelerTests.h */,
+				680FB3F715CF1B8500DE453D /* Home_Owner_ModelerTests.m */,
+				680FB3F115CF1B8500DE453D /* Supporting Files */,
+			);
+			path = "Home Owner ModelerTests";
+			sourceTree = "<group>";
+		};
+		680FB3F115CF1B8500DE453D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				680FB3F215CF1B8500DE453D /* Home Owner ModelerTests-Info.plist */,
+				680FB3F315CF1B8500DE453D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		680FB3BB15CF1B8500DE453D /* Home Owner Modeler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680FB3FB15CF1B8500DE453D /* Build configuration list for PBXNativeTarget "Home Owner Modeler" */;
+			buildPhases = (
+				680FB3B815CF1B8500DE453D /* Sources */,
+				680FB3B915CF1B8500DE453D /* Frameworks */,
+				680FB3BA15CF1B8500DE453D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Home Owner Modeler";
+			productName = "Home Owner Modeler";
+			productReference = 680FB3BC15CF1B8500DE453D /* Home Owner Modeler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		680FB3E715CF1B8500DE453D /* Home Owner ModelerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680FB3FE15CF1B8500DE453D /* Build configuration list for PBXNativeTarget "Home Owner ModelerTests" */;
+			buildPhases = (
+				680FB3E315CF1B8500DE453D /* Sources */,
+				680FB3E415CF1B8500DE453D /* Frameworks */,
+				680FB3E515CF1B8500DE453D /* Resources */,
+				680FB3E615CF1B8500DE453D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680FB3EF15CF1B8500DE453D /* PBXTargetDependency */,
+			);
+			name = "Home Owner ModelerTests";
+			productName = "Home Owner ModelerTests";
+			productReference = 680FB3E815CF1B8500DE453D /* Home Owner ModelerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		680FB3B315CF1B8500DE453D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Garrett Franks";
+			};
+			buildConfigurationList = 680FB3B615CF1B8500DE453D /* Build configuration list for PBXProject "Home Owner Modeler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 680FB3B115CF1B8500DE453D;
+			productRefGroup = 680FB3BD15CF1B8500DE453D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				680FB3BB15CF1B8500DE453D /* Home Owner Modeler */,
+				680FB3E715CF1B8500DE453D /* Home Owner ModelerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		680FB3BA15CF1B8500DE453D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FB3CD15CF1B8500DE453D /* InfoPlist.strings in Resources */,
+				680FB3D615CF1B8500DE453D /* MainStoryboard_iPhone.storyboard in Resources */,
+				680FB3D915CF1B8500DE453D /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FB3E515CF1B8500DE453D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FB3F515CF1B8500DE453D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		680FB3E615CF1B8500DE453D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		680FB3B815CF1B8500DE453D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FB3CF15CF1B8500DE453D /* main.m in Sources */,
+				680FB3D315CF1B8500DE453D /* AppDelegate.m in Sources */,
+				680FB3DC15CF1B8500DE453D /* Home_Owner_Modeler.xcdatamodeld in Sources */,
+				680FB3DF15CF1B8500DE453D /* MasterViewController.m in Sources */,
+				680FB3E215CF1B8500DE453D /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FB3E315CF1B8500DE453D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FB3F815CF1B8500DE453D /* Home_Owner_ModelerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		680FB3EF15CF1B8500DE453D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680FB3BB15CF1B8500DE453D /* Home Owner Modeler */;
+			targetProxy = 680FB3EE15CF1B8500DE453D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		680FB3CB15CF1B8500DE453D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680FB3CC15CF1B8500DE453D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		680FB3D415CF1B8500DE453D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680FB3D515CF1B8500DE453D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		680FB3D715CF1B8500DE453D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680FB3D815CF1B8500DE453D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		680FB3F315CF1B8500DE453D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680FB3F415CF1B8500DE453D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		680FB3F915CF1B8500DE453D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		680FB3FA15CF1B8500DE453D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		680FB3FC15CF1B8500DE453D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Home Owner Modeler/Home Owner Modeler-Prefix.pch";
+				INFOPLIST_FILE = "Home Owner Modeler/Home Owner Modeler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		680FB3FD15CF1B8500DE453D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Home Owner Modeler/Home Owner Modeler-Prefix.pch";
+				INFOPLIST_FILE = "Home Owner Modeler/Home Owner Modeler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		680FB3FF15CF1B8500DE453D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Home Owner Modeler.app/Home Owner Modeler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Home Owner Modeler/Home Owner Modeler-Prefix.pch";
+				INFOPLIST_FILE = "Home Owner ModelerTests/Home Owner ModelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		680FB40015CF1B8500DE453D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Home Owner Modeler.app/Home Owner Modeler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Home Owner Modeler/Home Owner Modeler-Prefix.pch";
+				INFOPLIST_FILE = "Home Owner ModelerTests/Home Owner ModelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		680FB3B615CF1B8500DE453D /* Build configuration list for PBXProject "Home Owner Modeler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680FB3F915CF1B8500DE453D /* Debug */,
+				680FB3FA15CF1B8500DE453D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680FB3FB15CF1B8500DE453D /* Build configuration list for PBXNativeTarget "Home Owner Modeler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680FB3FC15CF1B8500DE453D /* Debug */,
+				680FB3FD15CF1B8500DE453D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		680FB3FE15CF1B8500DE453D /* Build configuration list for PBXNativeTarget "Home Owner ModelerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680FB3FF15CF1B8500DE453D /* Debug */,
+				680FB40015CF1B8500DE453D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		680FB3DA15CF1B8500DE453D /* Home_Owner_Modeler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				680FB3DB15CF1B8500DE453D /* Home_Owner_Modeler.xcdatamodel */,
+			);
+			currentVersion = 680FB3DB15CF1B8500DE453D /* Home_Owner_Modeler.xcdatamodel */;
+			path = Home_Owner_Modeler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 680FB3B315CF1B8500DE453D /* Project object */;
+}
