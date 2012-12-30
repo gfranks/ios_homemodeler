@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Event">
-        <attribute name="timeStamp" optional="YES" attributeType="Date"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
+    </entity>
+    <entity name="HomePhoto" representedClassName="HomePhoto" syncable="YES">
+        <attribute name="home_photo" optional="YES" attributeType="Transformable" valueTransformerName="" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+    </entity>
+    <entity name="ItemPhoto" representedClassName="ItemPhoto" syncable="YES">
+        <attribute name="item_photo" optional="YES" attributeType="Transformable" valueTransformerName="" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Event" positionX="261" positionY="189" width="128" height="60"/>
+        <element name="Event" positionX="187" positionY="-9" width="128" height="60"/>
+        <element name="HomePhoto" positionX="124" positionY="75" width="128" height="58"/>
+        <element name="ItemPhoto" positionX="261" positionY="75" width="128" height="58"/>
     </elements>
 </model>

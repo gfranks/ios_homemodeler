@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HMContainerViewController.h"
+#import "IIViewDeckController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -15,6 +17,8 @@
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+@property (strong, nonatomic) HMContainerViewController *containerController;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
